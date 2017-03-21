@@ -16,7 +16,7 @@ namespace HomeworkConsoleApp
             DateTime theDate = new DateTime (2017, 3 , 21);
             double cheeseBurger = 5.45;
             char theSpot = ('X');
-
+            string userNumber;
 
             Console.WriteLine(helloWorld);
             Console.WriteLine("Columbus Sailed the world in " + columbusYear);
@@ -24,6 +24,26 @@ namespace HomeworkConsoleApp
             Console.WriteLine("Today is " + theDate);
             Console.WriteLine("I spent $" + cheeseBurger + " on a cheeseburger");
             Console.WriteLine(theSpot + " marks the spot");
+            Console.WriteLine("Input a Number");
+            
+            userNumber = Console.ReadLine();
+
+            int parsedUserNumber = 0;
+
+
+
+
+            Int32.TryParse(userNumber, out parsedUserNumber);
+
+                Console.WriteLine(userNumber +  " " + parsedUserNumber);
+            
+                
+
+
+
+
+            //userNumber = ( Console.ReadLine());
+            // Console.WriteLine(userNumber);
 
 
 
