@@ -13,7 +13,7 @@ namespace HomeworkConsoleApp
             string helloWorld = ("Hello World!");
             int columbusYear = 1492;
             bool dog = true;
-            DateTime theDate = new DateTime (2017, 3 , 21);
+            DateTime theDate = new DateTime(2017, 3, 21);
             double cheeseBurger = 5.45;
             char theSpot = ('X');
             string userNumber;
@@ -25,7 +25,7 @@ namespace HomeworkConsoleApp
             Console.WriteLine("I spent $" + cheeseBurger + " on a cheeseburger");
             Console.WriteLine(theSpot + " marks the spot");
             Console.WriteLine("Input a Number");
-            
+
             userNumber = Console.ReadLine();
 
             int parsedUserNumber = 0;
@@ -35,9 +35,28 @@ namespace HomeworkConsoleApp
 
             Int32.TryParse(userNumber, out parsedUserNumber);
 
-                Console.WriteLine(userNumber +  " " + parsedUserNumber);
-            
-                
+
+
+
+
+
+
+
+            if (parsedUserNumber >= 0)
+            {
+                Console.WriteLine("Input a Number");
+            }
+
+            else
+            {
+                Console.WriteLine("Input a Number");
+
+
+            }
+      
+
+
+
 
 
 
